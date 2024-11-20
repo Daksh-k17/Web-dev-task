@@ -3,14 +3,22 @@
     padding: 0;
 }
 body{
-    background-color: whitesmoke;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 .head1{
-    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 55px;
     margin-top: 10px;
+    text-align: center;
+    color: #03071e;
 }
 
 .ques{
+    font-family: "Roboto Slab";
     margin-left: 2px;
     margin-top: 50px;
 }
@@ -33,10 +41,10 @@ body{
     height: 50px;
     width: 200px;
     background-color: black;
-    margin: 2px;
-    margin-top: 50px;
-    margin-left: 50px;
-    padding: 2px;
-    border: 2px solid red;
+    margin-left: calc(50vw - 100px);
+    margin-right: calc(50vw - 100px);
+    margin-top: 20px;
+    padding: 5px;
+    border: 6px solid #0078d4;
     border-radius: 10px;
 }
