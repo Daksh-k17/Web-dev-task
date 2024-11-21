@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background-image: url("Backdrop.png");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
+}
+.head1{
+    color:whitesmoke;
+    font-family: "Playfair Display";
+    font-size: 55px;
+    margin-top: 10px;
+    text-align: center;
+    
+}
+
+
+.ques{
+    color:#0078d4;
+    font-family: "Roboto Slab";
+    margin-left: 2px;
+    margin-top: 50px;
+    
+
+}
+.container{
+    display: flex;
+
+}
+.options{
+    color: whitesmoke;
+    padding-right: 20px;
+    margin: 2px;
+    padding-left: 2px;
+}
+.tick{
+    padding-right: 20px;
+    margin: 2px;
+    padding-left: 2px;
+}
+.btn{
+    color: wheat;
+
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    margin-left: calc(50vw - 100px);
+    margin-right: calc(50vw - 100px);
+    margin-top: 20px;
+    padding: 5px;
+    border: 6px solid #0078d4;
+    border-radius: 10px;
+}
+}
